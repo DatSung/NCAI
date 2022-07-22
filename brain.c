@@ -1,14 +1,5 @@
 #include <stdio.h>
 int main(){
-    printf("Hello world");
-    printf("Hello world");
-    printf("Hello world");
-    printf("Hello world");
-    printf("Hello world");
-    printf("Hello world");
-    printf("Hello world");
-    printf("Hello world");
-    printf("Hello world");
-    printf("Hello world");
+    printf("Wellcome to NumbersCount AI");
     return 0;
 }
