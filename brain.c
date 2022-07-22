@@ -1,5 +1,5 @@
 #include <stdio.h>
 int main(){
-    printf("Wellcome to NumbersCount AI");
+    printf("\nWellcome to NumbersCount AI\n\n");
     return 0;
 }
