@@ -3,3 +3,5 @@
 #include <ctype.h>
 #include <time.h>
 
+int main(){
+}
