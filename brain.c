@@ -48,7 +48,7 @@ int main(void){
                 // CHECK RESULT
                 if (main_Num >= 30)
                 {
-                    printf("YOU WIN");
+                    printf("YOU WIN\n");
                 }
 
         }
@@ -58,46 +58,64 @@ int main(void){
 
 
     } else if (key_control == 2) {
-
         do {
 
-        printf("\n");
+            if (main_Num < 30) {
+                printf("\n");
 
-        printf("PLease enter your number count: ");
-        do {
-            scanf("%d", &player_Num);
-        } while (player_Num > 3);
-        printf("Main number: %d\n", main_Num += player_Num);
+                printf("PLease enter your number count: ");
 
-        if (player_Num == 1) {
-            ai_Num = 3;
-            printf("AI count: %d\n", ai_Num);
-        } else if (player_Num == 3) {
-            ai_Num = 1;
-            printf("AI count: %d\n", ai_Num);
-        } else {
-            ai_Num = 2;
-            printf("AI count: %d\n", ai_Num);
-        }
+                do {
+                    scanf("%d", &player_Num);
+                } while (player_Num > 3);
 
+                printf("Main number: %d\n", main_Num += player_Num);
 
-        printf("Main number: %d\n", main_Num += ai_Num);
+                // CHECK RESULT
 
-        printf("\n");
+                if (main_Num >= 30)
+                {
+                    printf("YOU WIN");
+                }
+                
 
-        if (main_Num + player_Num >= 30)
-        {
-            printf("YOU WIN\n");
-        } else if (main_Num + ai_Num >= 30)
-        {
-            printf("AI WIN");
+            }
+
+            if (main_Num < 30) {
+
+                // AI
+
+                if (player_Num == 1) {
+                    ai_Num = 3;
+                } else if (player_Num == 2)
+                {                   
+                    ai_Num = 2;   
+                } else if (player_Num == 3)
+                {
+                    ai_Num = 1;
+                };
+
+                if (main_Num == 1) {
+                    ai_Num = 1;
+                };
+                
+                
+                
+
+                printf("AI count: %d\n", ai_Num);
+                printf("Main number: %d\n", main_Num += ai_Num);
+
+                printf("\n");
+
+                // CHECK RESULT
+                if (main_Num >= 30)
+                {
+                    printf("YOU WIN\n");
+                }
+
         }
 
     } while (main_Num < 30);
-
     };
-    
-    
-
     
 }
