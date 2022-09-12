@@ -7,6 +7,8 @@ int main(void){
     int main_Num = 0, player_Num = 0, ai_Num = 0;
     int key_control = 0;
 
+    printf("\n");
+
     printf("Welcome to NCAI Early Access\n");
     printf("Please choose difficult level\n");
     printf("(1) Stupid AI\n");
@@ -98,9 +100,6 @@ int main(void){
                 if (main_Num == 1) {
                     ai_Num = 1;
                 };
-                
-                
-                
 
                 printf("AI count: %d\n", ai_Num);
                 printf("Main number: %d\n", main_Num += ai_Num);
