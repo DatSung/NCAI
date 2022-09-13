@@ -50,13 +50,12 @@ int main(void){
                 // CHECK RESULT
                 if (main_Num >= 30)
                 {
-                    printf("YOU WIN\n");
+                    printf("AI WIN\n");
                 }
 
         }
 
     } while (main_Num < 30);
-
 
 
     } else if (key_control == 2) {
@@ -74,6 +73,7 @@ int main(void){
                 printf("Main number: %d\n", main_Num += player_Num);
 
                 // CHECK RESULT
+
 
                 if (main_Num >= 30)
                 {
@@ -109,7 +109,7 @@ int main(void){
                 // CHECK RESULT
                 if (main_Num >= 30)
                 {
-                    printf("YOU WIN\n");
+                    printf("AI WIN\n");
                 }
 
         }
