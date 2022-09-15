@@ -30,8 +30,7 @@ int main(void){
 
                 do {
                     scanf("%d", &player_Num);
-                    if (player_Num > 3)
-                    {
+                    if (player_Num > 3) {
                         printf("Please enter less than 3!\n");
                     }
                 } while (player_Num > 3);
@@ -40,8 +39,7 @@ int main(void){
 
                 // CHECK RESULT
 
-                if (main_Num >= 30)
-                {
+                if (main_Num >= 30) {
                     printf("YOU WIN");
                 }
                 
@@ -56,8 +54,8 @@ int main(void){
                 printf("\n");
 
                 // CHECK RESULT
-                if (main_Num >= 30)
-                {
+
+                if (main_Num >= 30) {
                     printf("AI WIN\n");
                 }
 
@@ -67,6 +65,7 @@ int main(void){
 
 
     } else if (key_control == 2) {
+
         do {
 
             if (main_Num < 30) {
@@ -92,7 +91,6 @@ int main(void){
                     printf("YOU WIN");
                 }
                 
-
             }
 
             if (main_Num < 30) {
@@ -171,17 +169,15 @@ int main(void){
                     printf("YOU WIN");
                 }
                 
-
             }
 
         } while (main_Num < 30);
 
     } else if (key_control == 4) {
-        do
-        {
-            
-            if (main_Num < 30) {   
 
+        do {
+
+            if (main_Num < 30) {   
                 // AI ENGINE
                 if (player_Num == 1) {
                     ai_Num = 3;
@@ -249,4 +245,4 @@ int main(void){
         
     }
     
-}
+};
