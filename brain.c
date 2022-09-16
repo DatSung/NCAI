@@ -58,11 +58,9 @@ int main(void){
                 if (main_Num >= 30) {
                     printf("AI WIN\n");
                 }
+            }   
 
-        }
-
-    } while (main_Num < 30);
-
+        } while (main_Num < 30);
 
     } else if (key_control == 2) {
 
@@ -209,6 +207,7 @@ int main(void){
                 printf("\n");
 
                 // CHECK RESULT
+                
                 if (main_Num >= 30)
                 {
                     printf("AI WIN\n");
