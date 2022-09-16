@@ -207,7 +207,7 @@ int main(void){
                 printf("\n");
 
                 // CHECK RESULT
-                
+
                 if (main_Num >= 30)
                 {
                     printf("AI WIN\n");
@@ -243,5 +243,4 @@ int main(void){
         } while (main_Num <30);
         
     }
-    
 };
